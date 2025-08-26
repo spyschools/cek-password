@@ -7,12 +7,13 @@ $ cd cek-password
 $ chmod +x cek_password.sh
 
 $ ./cek_password.sh
-*Enter the password you want to check
+*Masukkan kata sandi yang ingin Anda periksa
 
 *versi python
 $ sudo apt update && sudo apt install python3 python3-pip -y
 $ pip3 install requests
 $ python3 cek_password.py
+*Masukkan kata sandi yang ingin Anda periksa
 
 *Keamanan:
 Tidak mengirim password ke internet.
