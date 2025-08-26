@@ -1,4 +1,6 @@
-Linux tools to check if your password has ever been leaked – directly from the terminal, securely (doesn't send the full password), and without installing additional tools.
+Tools Linux untuk memeriksa apakah kata sandi Anda pernah bocor 
+
+*langsung dari terminal, aman (tidak mengirimkan kata sandi lengkap), dan tanpa menginstal alat tambahan.
 
 $ git clone https://github.com/spyschools/cek-password.git
 $ cd cek-password
@@ -6,3 +8,13 @@ $ chmod +x cek_password.sh
 
 $ ./cek_password.sh
 *Enter the password you want to check
+
+*versi python
+$ sudo apt update && sudo apt install python3 python3-pip -y
+$ pip3 install requests
+$ python3 cek_password.py
+
+*Keamanan:
+Tidak mengirim password ke internet.
+Hanya mengirim 5 huruf pertama hash SHA-1.
+Semua proses cocokkan dilakukan di lokal.
