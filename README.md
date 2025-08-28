@@ -1,9 +1,11 @@
-Tools Linux untuk memeriksa apakah kata sandi Anda pernah bocor 
+Tools untuk memeriksa kata sandi yang pernah bocor
 
 *langsung dari terminal, aman (tidak mengirimkan kata sandi lengkap), dan tanpa menginstal alat tambahan.
 
 $ git clone https://github.com/spyschools/cek-password.git
+
 $ cd cek-password
+
 $ chmod +x cek_password.sh
 
 $ ./cek_password.sh
@@ -11,7 +13,9 @@ $ ./cek_password.sh
 
 *versi python
 $ sudo apt update && sudo apt install python3 python3-pip -y
+
 $ pip3 install requests
+
 $ python3 cek_password.py
 *Masukkan kata sandi yang ingin Anda periksa
 
